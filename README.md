@@ -1,6 +1,10 @@
 # Frontend Mentor - Chat app CSS illustration
 
-![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
+
+![chatapp illustration screenshot](https://user-images.githubusercontent.com/107545464/233866569-31df1338-b052-4de0-8a46-e4befcdc53de.png)
+
+
+![chatapp illustration screenshot desktop](https://user-images.githubusercontent.com/107545464/233866662-a7637c86-b159-43f9-b8c7-fe3a53055a96.png)
 
 ## Welcome! 👋
 
