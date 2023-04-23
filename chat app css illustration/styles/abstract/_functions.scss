@@ -1,0 +1,12 @@
+@function weight($weight-name) {
+    @return map-get($font-weights , $weight-name );
+}
+
+@mixin abs($top,$left){
+    top: $top;
+    left: $left;
+}
+
+@mixin bg-gradient($direction) {
+    background: linear-gradient(to $direction, $Pale-Violet 0%, $Light-Violet 100%);
+}

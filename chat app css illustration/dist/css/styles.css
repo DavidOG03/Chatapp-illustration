@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+*, *::after, *, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  height: 95%;
+}
+header .header-gradient {
+  width: 500px;
+  height: 560px;
+  border-radius: 0 0 50% 50%;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, hsl(276deg, 100%, 81%) 0%, hsl(264deg, 100%, 61%) 100%);
+  position: absolute;
+  top: -50px;
+  left: -313px;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 95%;
+  }
+  header .header-gradient {
+    width: 500px;
+    height: 560px;
+    border-radius: 0 0 50% 50%;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, hsl(276deg, 100%, 81%) 0%, hsl(264deg, 100%, 61%) 100%);
+    position: absolute;
+    top: -50px;
+    left: -130px;
+  }
+}
+@media screen and (min-width: 769px) {
+  header {
+    width: 100%;
+    height: 95%;
+  }
+  header .header-gradient {
+    width: 500px;
+    height: 620px;
+    border-radius: 0 0 50% 50%;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, hsl(276deg, 100%, 81%) 0%, hsl(264deg, 100%, 61%) 100%);
+    position: absolute;
+    top: -50px;
+    left: -120px;
+  }
+}
+main .main-text {
+  width: 100%;
+  text-align: center;
+}
+main .main-text h1 {
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: hsl(271deg, 36%, 24%);
+}
+main .main-text p {
+  font-size: 1rem;
+  width: 82%;
+  margin: auto;
+  line-height: 1.85rem;
+  color: hsl(270deg, 7%, 64%);
+}
+main .phone-foundation {
+  position: absolute;
+  top: 48.5%;
+  left: 50%;
+  transform: translate(-50%, -51.5%);
+  margin: auto;
+  width: 250px;
+  height: 505px;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 30px;
+  box-shadow: 0 0 50px 10px hsla(270deg, 7%, 64%, 0.45);
+}
+main .phone-foundation .phone-background {
+  width: 92%;
+  height: 96%;
+  margin: 10px auto;
+  background: hsl(270deg, 20%, 96%);
+  border-radius: 20px;
+}
+main .phone-foundation .phone-background .phone-header {
+  background: linear-gradient(to left, hsl(276deg, 100%, 81%) 0%, hsl(264deg, 100%, 61%) 100%);
+  width: 100%;
+  height: 70px;
+  border-radius: 23px 23px 5px 5px;
+  position: relative;
+}
+main .phone-foundation .phone-background .phone-header .phone-cutout {
+  width: 130px;
+  height: 22px;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+main .phone-foundation .phone-background .phone-header .flex {
+  display: flex;
+  align-items: center;
+  padding: 30px 10px 0px 15px;
+}
+main .phone-foundation .phone-background .phone-header .flex .fas {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+main .phone-foundation .phone-background .phone-header .flex .user-image {
+  width: 25px;
+  height: 25px;
+  background: url(/images/avatar.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1.5px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+  margin-inline: 7px;
+}
+main .phone-foundation .phone-background .phone-header .flex .user-name {
+  margin-top: 7px;
+}
+main .phone-foundation .phone-background .phone-header .flex .user-name h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 11px;
+  line-height: 0.15rem;
+  font-weight: 500;
+}
+main .phone-foundation .phone-background .phone-header .flex .user-name span {
+  color: hsl(276deg, 100%, 81%);
+  font-size: 9px;
+}
+main .phone-foundation .phone-background .phone-header .flex #kebab {
+  height: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+main .phone-foundation .phone-background .chat-left {
+  margin: 10px 10px;
+}
+main .phone-foundation .phone-background .chat-left .first-chat {
+  background: hsla(206deg, 7%, 79%, 0.199);
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 8px 4px;
+  padding: 8px;
+}
+main .phone-foundation .phone-background .chat-left .first-chat p {
+  font-size: 9px;
+  color: hsl(276deg, 55%, 52%);
+}
+main .phone-foundation .phone-background .chat-left .second-chat {
+  background: hsla(206deg, 7%, 79%, 0.199);
+  width: 60%;
+  margin-bottom: 16px;
+  border-radius: 8px 8px 8px 4px;
+  padding: 6px 8px;
+}
+main .phone-foundation .phone-background .chat-left .second-chat p {
+  font-size: 8px;
+  color: hsl(276deg, 55%, 52%);
+}
+main .phone-foundation .phone-background .chat-right {
+  width: 60%;
+  margin-left: 85px;
+}
+main .phone-foundation .phone-background .chat-right .dog-pics {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+main .phone-foundation .phone-background .chat-right .dog-pics img {
+  width: 40px;
+  border-radius: 10px;
+}
+main .phone-foundation .phone-background .chat-right .third-chat {
+  background: hsl(0deg, 0%, 100%);
+  width: 91%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  border-radius: 8px 8px 4px 8px;
+  padding: 6px 8px;
+  box-shadow: 0 5px 6px 0 hsla(206deg, 7%, 79%, 0.199);
+}
+main .phone-foundation .phone-background .chat-right .third-chat p {
+  font-size: 8px;
+  color: hsl(271deg, 15%, 43%);
+}
+main .phone-foundation .phone-background .chat-right .fourth-chat {
+  background: hsl(0deg, 0%, 100%);
+  width: 63%;
+  margin-bottom: 15px;
+  margin-left: auto;
+  border-radius: 8px 8px 4px 8px;
+  box-shadow: 0 5px 10px 0 hsla(206deg, 7%, 79%, 0.199);
+  padding: 6px 6px;
+}
+main .phone-foundation .phone-background .chat-right .fourth-chat p {
+  font-size: 9px;
+  color: hsl(271deg, 15%, 43%);
+}
+main .phone-foundation .phone-background .chat-walk {
+  margin: 0px 7px;
+}
+main .phone-foundation .phone-background .chat-walk .fifth-chat {
+  background: hsla(206deg, 7%, 79%, 0.199);
+  width: 63%;
+  margin-bottom: 10px;
+  border-radius: 8px 8px 8px 4px;
+  padding: 8px 10px;
+}
+main .phone-foundation .phone-background .chat-walk .fifth-chat p {
+  font-size: 8px;
+  color: hsl(276deg, 55%, 52%);
+}
+main .phone-foundation .phone-background .chat-walk .choice {
+  width: 75%;
+  border: none;
+  border-radius: 10px 10px 10px 4px;
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, hsl(276deg, 100%, 81%) 0%, hsl(264deg, 100%, 61%) 100%);
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px 10px 10px 4px;
+  padding: 8px;
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 12px;
+  height: 12px;
+  border: 0.15em solid hsl(289deg, 100%, 72%);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio input[type=radio]::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: hsl(270deg, 7%, 64%);
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio input[type=radio]:checked::before {
+  transform: scale(1);
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio p {
+  font-size: 9px;
+  color: hsl(270deg, 20%, 96%);
+  padding-left: 20px;
+}
+main .phone-foundation .phone-background .chat-walk .choice .radio strong {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: bolder;
+  margin-left: auto;
+  padding-right: 5px;
+  font-size: 0.8rem;
+}
+main .phone-foundation .phone-background .type {
+  margin: 7px 0;
+  padding: 0 7px;
+  display: block;
+  position: relative;
+}
+main .phone-foundation .phone-background .type #message {
+  border: 2px solid transparent;
+  padding: 8px 28px 8px 25px;
+  border-radius: 20px;
+  width: 100%;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+main .phone-foundation .phone-background .type #message::-moz-placeholder {
+  color: hsl(206deg, 6%, 79%);
+  font-size: 9px;
+}
+main .phone-foundation .phone-background .type #message:-ms-input-placeholder {
+  color: hsl(206deg, 6%, 79%);
+  font-size: 9px;
+}
+main .phone-foundation .phone-background .type #message::placeholder {
+  color: hsl(206deg, 6%, 79%);
+  font-size: 9px;
+}
+main .phone-foundation .phone-background .type #message:focus {
+  border: 2px solid hsl(271deg, 36%, 24%);
+}
+main .phone-foundation .phone-background .type .fa-chevron-right {
+  cursor: pointer;
+  position: absolute;
+  right: 12.5px;
+  top: 7px;
+  display: grid;
+  place-items: center;
+  background: hsl(271deg, 36%, 24%);
+  width: 22px;
+  height: 22px;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 11px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 1025px) {
+  main .main-text {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    max-width: 450px;
+    text-align: left;
+  }
+  main .main-text h1 {
+    font-size: 2rem;
+  }
+  main .main-text p {
+    margin-left: 0;
+    width: unset;
+    font-size: 1rem;
+  }
+  main .phone-foundation {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    transform: translateY(-350px);
+    margin: auto;
+    width: 250px;
+    height: 505px;
+    background: hsl(0deg, 0%, 100%);
+    border-radius: 30px;
+    box-shadow: 0 0 50px 10px hsla(270deg, 7%, 64%, 0.45);
+  }
+}
+footer {
+  width: 90%;
+  max-width: 375px;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  background-color: hsla(206deg, 7%, 79%, 0.199);
+  position: relative;
+  padding: 10px 0;
+}
+footer small a {
+  text-decoration: none;
+  color: hsl(293deg, 100%, 63%);
+}
+footer small a:hover {
+  text-decoration: underline;
+  color: hsl(264deg, 100%, 61%);
+}
+footer .transparent-footer {
+  width: 500px;
+  height: 620px;
+  border-radius: 50% 50% 0 0;
+  background-color: hsl(270deg, 20%, 96%);
+  z-index: -1;
+  position: fixed;
+  bottom: 0px;
+  right: -330px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,36 @@
+@use '../abstract/colors' as *;
+@use '../abstract/fonts' as *;
+@import '../abstract/functions' ;
+
+footer{
+    width: 90%;
+    max-width: 375px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    background-color: $Grayish-Blue-transparent;
+    position: relative;
+    padding: 10px 0;
+    small{
+       
+       a{
+        text-decoration: none;
+        color: $Light-Magenta;
+        &:hover{
+            text-decoration: underline;
+            color: $Light-Violet;
+        }
+       }
+    }
+
+    .transparent-footer{
+        width: 500px;
+        height: 620px;
+        border-radius: 50% 50% 0 0;
+        background-color: $Light-Grayish-Violet;
+        z-index: -1;
+        position: fixed;
+        bottom: 0px;
+        right: -330px;
+    }
+}
